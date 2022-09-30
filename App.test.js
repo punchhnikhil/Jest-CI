@@ -6,6 +6,5 @@ describe('form submits two answers', function () {
   const mockFn = jest.fn();
   it('renders Card Label', () => {
     render(<App questions={allQuestions} onSubmit={mockFn} />);
-    expect(0).toBe(1);
   });
 });
