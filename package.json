@@ -7,7 +7,6 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "format": "prettier --check ./",
     "lint": "eslint ."
   },
   "dependencies": {
