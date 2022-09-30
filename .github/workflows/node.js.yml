@@ -10,7 +10,8 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
+  unit-tests:
+    name: Run Unit Tests
 
     runs-on: ubuntu-latest
 
