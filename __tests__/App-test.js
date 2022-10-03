@@ -10,5 +10,6 @@ import App from '../App';
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
+  //valid test case
   renderer.create(<App />);
 });
